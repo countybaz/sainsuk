@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from "react";
 import { ThumbsUp, MessageCircle, ChevronDown } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
@@ -75,14 +76,14 @@ const FacebookReviews = () => {
     name: "Emma Peterson",
     avatar: "https://i.pravatar.cc/40?img=3",
     time: "4 days ago",
-    text: "Thought it was too good to be true, but I'm literally using my £100 Sainsbury's gift card today! Perfect timing as I needed to stock up on groceries.",
+    text: "Thought it was too good to be true, but I'm literally using my £100 Sainsbury's gift card today! Perfect timing as I needed to stock up on shopping.",
     likes: 21,
     comments: 3
   }, {
     name: "Liam Johnson",
     avatar: "https://i.pravatar.cc/40?img=10",
     time: "5 days ago",
-    text: "So grateful for this opportunity! My family's grocery budget was tight this month. The survey was straightforward and my gift card came in the mail just 4 days later.",
+    text: "So grateful for this opportunity! My family's shopping budget was tight this month. The survey was straightforward and my gift card came in the mail just 4 days later.",
     likes: 17,
     comments: 2
   }, {
@@ -103,7 +104,7 @@ const FacebookReviews = () => {
     name: "Ava Thompson",
     avatar: "https://i.pravatar.cc/40?img=23",
     time: "2 weeks ago",
-    text: "After some unexpected bills, our grocery budget was tight. This Sainsbury's gift card program was a lifesaver! So quick and easy to participate.",
+    text: "After some unexpected bills, our shopping budget was tight. This Sainsbury's gift card program was a lifesaver! So quick and easy to participate.",
     likes: 33,
     comments: 4
   }, {
@@ -218,7 +219,7 @@ const FacebookReviews = () => {
       `We're so glad to hear about your positive experience, ${reviewName}! Our goal is to make the survey process as simple as possible. Thank you for being part of our program!`,
       `Your satisfaction means everything to us, ${reviewName}! We're happy that the Sainsbury's gift card meets your expectations. Don't hesitate to reach out if you have any questions!`,
       `Thanks for trusting our program, ${reviewName}! Many people are skeptical at first, but we're dedicated to delivering gift cards to all our qualified participants.`,
-      `We love hearing success stories like yours, ${reviewName}! The Sainsbury's gift card can really help with household expenses. Thanks for sharing your experience with our community!`,
+      `We love hearing success stories like yours, ${reviewName}! The Sainsbury's gift card can really help with household shopping expenses. Thanks for sharing your experience with our community!`,
       `Thank you for your wonderful feedback, ${reviewName}! We're glad the process was smooth and you're enjoying your gift card. That's exactly what we aim for!`
     ];
 
@@ -302,8 +303,8 @@ const FacebookReviews = () => {
           {reviewsWithReplies.includes(index) && (
             <div className="ml-10 mt-2 border-l-2 border-gray-200 pl-3">
               <div className="flex items-start">
-                <div className="relative">
-                  <Avatar className="w-6 h-6 mr-2">
+                <div className="relative mr-2">
+                  <Avatar className="w-6 h-6">
                     <AvatarImage 
                       src="/lovable-uploads/cbdedd35-0ec9-4e16-8866-51e309907ad3.png" 
                       alt="Sainsbury's Review Program" 
@@ -316,7 +317,7 @@ const FacebookReviews = () => {
                   </Avatar>
                   <div className="absolute -bottom-1 -right-1 bg-green-500 rounded-full w-2 h-2 border border-white"></div>
                 </div>
-                <div>
+                <div className="flex-1">
                   <div className="flex items-center gap-1">
                     <h5 className="text-xs font-semibold text-[#3b5998]">Sainsbury's Review Program</h5>
                     <span className="text-[10px] bg-orange-100 text-orange-800 px-1 rounded">Verified</span>
@@ -349,3 +350,4 @@ const FacebookReviews = () => {
 };
 
 export default FacebookReviews;
+
