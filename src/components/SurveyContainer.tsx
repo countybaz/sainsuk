@@ -24,12 +24,9 @@ const SurveyContainer = () => {
   // Skip Step5 (ticking step) and go directly from Step3 to Results
   useEffect(() => {
     if (currentStep === 4) {
-      // Automatically progress to results after a short delay
-      const timer = setTimeout(() => {
-        goToNextStep();
-      }, 100);
-      
-      return () => clearTimeout(timer);
+      // Immediately progress to results without delay
+      // This fixes the glitch where old content appears briefly
+      goToNextStep();
     }
   }, [currentStep, goToNextStep]);
 
@@ -43,7 +40,7 @@ const SurveyContainer = () => {
         <SurveyProgress currentStep={currentStep} totalSteps={totalSteps - 1} />
       )}
       
-      {/* Survey steps */}
+      {/* Survey steps - ensure only ONE component renders at any time */}
       {currentStep === 0 && <StartScreen />}
       {currentStep === 1 && <Step1 />}
       {currentStep === 2 && <Step2 />}

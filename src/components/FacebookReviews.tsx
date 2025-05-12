@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { ThumbsUp, MessageCircle, ChevronDown } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
@@ -237,10 +236,11 @@ const FacebookReviews = () => {
     <div className="mt-8 bg-white rounded-lg shadow-md p-4">
       <div className="flex items-center justify-between mb-4">
         <div className="flex items-center">
-          <div className="w-8 h-8 bg-[#3b5998] rounded-full flex items-center justify-center">
-            <span className="text-white font-bold">f</span>
+          {/* Improved Facebook logo for mobile */}
+          <div className="min-w-8 h-8 bg-[#3b5998] rounded-full flex items-center justify-center">
+            <span className="text-white font-bold text-lg">f</span>
           </div>
-          <span className="ml-2 font-semibold text-[#3b5998]">Read what others say about our program:</span>
+          <span className="ml-2 font-semibold text-[#3b5998] text-sm sm:text-base">Read what others say about our program:</span>
         </div>
         <span className="text-sm text-gray-600 font-medium">134 comments</span>
       </div>
@@ -303,7 +303,8 @@ const FacebookReviews = () => {
           {reviewsWithReplies.includes(index) && (
             <div className="ml-10 mt-2 border-l-2 border-gray-200 pl-3">
               <div className="flex items-start">
-                <div className="relative mr-2">
+                {/* Fixed avatar and online icon positioning */}
+                <div className="relative mr-2 flex-shrink-0">
                   <Avatar className="w-6 h-6">
                     <AvatarImage 
                       src="/lovable-uploads/cbdedd35-0ec9-4e16-8866-51e309907ad3.png" 
@@ -315,12 +316,12 @@ const FacebookReviews = () => {
                     />
                     <AvatarFallback>SRP</AvatarFallback>
                   </Avatar>
-                  <div className="absolute -bottom-1 -right-1 bg-green-500 rounded-full w-2 h-2 border border-white"></div>
+                  <div className="absolute -bottom-0.5 -right-0.5 bg-green-500 rounded-full w-2 h-2 border border-white"></div>
                 </div>
-                <div className="flex-1">
-                  <div className="flex items-center gap-1">
+                <div className="flex-1 min-w-0"> {/* Added min-width to prevent text overflow */}
+                  <div className="flex flex-wrap items-center gap-1">
                     <h5 className="text-xs font-semibold text-[#3b5998]">Sainsbury's Review Program</h5>
-                    <span className="text-[10px] bg-orange-100 text-orange-800 px-1 rounded">Verified</span>
+                    <span className="text-[10px] bg-orange-100 text-orange-800 px-1 rounded inline-block">Verified</span>
                   </div>
                   <p className="text-xs mt-0.5">
                     {getUniqueResponse(index, review.name.split(" ")[0])}
@@ -350,4 +351,3 @@ const FacebookReviews = () => {
 };
 
 export default FacebookReviews;
-
