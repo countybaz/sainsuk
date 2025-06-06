@@ -73,7 +73,7 @@ const FAQ = () => {
               WHAT CAN I GET FROM THIS PROGRAM?
             </AccordionTrigger>
             <AccordionContent className="text-gray-700">
-              By participating in this Program, you can receive a £100 Sainsbury's gift card. 
+              By participating in this Program, you can receive a £750 Sainsbury's gift card. 
               This can be used across all Sainsbury's stores for groceries, clothing, and household items.
             </AccordionContent>
           </AccordionItem>

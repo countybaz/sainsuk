@@ -38,35 +38,35 @@ const FacebookReviews = () => {
     name: "Sarah Johnson",
     avatar: "https://i.pravatar.cc/40?img=1",
     time: "2 hours ago",
-    text: "Just received my £100 Sainsbury's gift card! The survey was super easy and the card arrived quickly. So happy with this program!",
+    text: "Just received my £750 Sainsbury's gift card! The survey was super easy and the card arrived quickly. So happy with this program!",
     likes: 24,
     comments: 2
   }, {
     name: "Michael Thomas",
     avatar: "https://i.pravatar.cc/40?img=5",
     time: "Yesterday",
-    text: "This is legit! Was skeptical at first but decided to try anyway. Got my Sainsbury's gift card in just 3 days after completing the survey. Amazing service!",
+    text: "This is legit! Was skeptical at first but decided to try anyway. Got my £750 Sainsbury's gift card in just 3 days after completing the survey. Amazing service!",
     likes: 42,
     comments: 5
   }, {
     name: "Jessica Williams",
     avatar: "https://i.pravatar.cc/40?img=8",
     time: "2 days ago",
-    text: "Just wow! Survey took less than 5 minutes and the gift card arrived perfectly packaged. My weekly shop at Sainsbury's is sorted for a while!",
+    text: "Just wow! Survey took less than 5 minutes and the £750 gift card arrived perfectly packaged. My weekly shop at Sainsbury's is sorted for months!",
     likes: 19,
     comments: 1
   }, {
     name: "Robert Chen",
     avatar: "https://i.pravatar.cc/40?img=12",
     time: "3 days ago",
-    text: "The whole process was surprisingly simple. I completed the survey during lunch break and received confirmation immediately. Gift card arrived few days later. 10/10 would recommend!",
+    text: "The whole process was surprisingly simple. I completed the survey during lunch break and received confirmation immediately. £750 gift card arrived few days later. 10/10 would recommend!",
     likes: 38,
     comments: 3
   }, {
     name: "Amanda Rodriguez",
     avatar: "https://i.pravatar.cc/40?img=22",
     time: "Last week",
-    text: "Best decision ever! My Sainsbury's gift card arrived in perfect condition. The Sainsbury's Review Program is amazing - thank you so much!",
+    text: "Best decision ever! My £750 Sainsbury's gift card arrived in perfect condition. The Sainsbury's Review Program is amazing - thank you so much!",
     likes: 57,
     comments: 7
   },
@@ -75,42 +75,42 @@ const FacebookReviews = () => {
     name: "Emma Peterson",
     avatar: "https://i.pravatar.cc/40?img=3",
     time: "4 days ago",
-    text: "Thought it was too good to be true, but I'm literally using my £100 Sainsbury's gift card today! Perfect timing as I needed to stock up on shopping.",
+    text: "Thought it was too good to be true, but I'm literally using my £750 Sainsbury's gift card today! Perfect timing as I needed to stock up on shopping for months.",
     likes: 21,
     comments: 3
   }, {
     name: "Liam Johnson",
     avatar: "https://i.pravatar.cc/40?img=10",
     time: "5 days ago",
-    text: "So grateful for this opportunity! My family's shopping budget was tight this month. The survey was straightforward and my gift card came in the mail just 4 days later.",
+    text: "So grateful for this opportunity! My family's shopping budget was tight this month. The survey was straightforward and my £750 gift card came in the mail just 4 days later.",
     likes: 17,
     comments: 2
   }, {
     name: "Olivia Rodriguez",
     avatar: "https://i.pravatar.cc/40?img=16",
     time: "Last week",
-    text: "My friends didn't believe me when I told them about this program, but now they're all signing up after seeing my Sainsbury's gift card! Definitely worth the few minutes it takes.",
+    text: "My friends didn't believe me when I told them about this program, but now they're all signing up after seeing my £750 Sainsbury's gift card! Definitely worth the few minutes it takes.",
     likes: 29,
     comments: 5
   }, {
     name: "Noah Martinez",
     avatar: "https://i.pravatar.cc/40?img=20",
     time: "Last week",
-    text: "Just got my Sainsbury's gift card yesterday. Already used £20 of it for my shopping today. Such a helpful boost to the monthly budget!",
+    text: "Just got my £750 Sainsbury's gift card yesterday. Already used £50 of it for my shopping today. Such a helpful boost to the monthly budget!",
     likes: 15,
     comments: 1
   }, {
     name: "Ava Thompson",
     avatar: "https://i.pravatar.cc/40?img=23",
     time: "2 weeks ago",
-    text: "After some unexpected bills, our shopping budget was tight. This Sainsbury's gift card program was a lifesaver! So quick and easy to participate.",
+    text: "After some unexpected bills, our shopping budget was tight. This £750 Sainsbury's gift card program was a lifesaver! So quick and easy to participate.",
     likes: 33,
     comments: 4
   }, {
     name: "Ethan Wright",
     avatar: "https://i.pravatar.cc/40?img=33",
     time: "3 weeks ago",
-    text: "I was hesitant but decided to try it anyway. So glad I did! The whole process was smooth and I got my Sainsbury's gift card right on time as promised.",
+    text: "I was hesitant but decided to try it anyway. So glad I did! The whole process was smooth and I got my £750 Sainsbury's gift card right on time as promised.",
     likes: 41,
     comments: 6
   }];
@@ -212,13 +212,13 @@ const FacebookReviews = () => {
   // Get a unique response for a specific review
   const getUniqueResponse = (index: number, reviewName: string) => {
     const responses = [
-      `Thanks for sharing your experience, ${reviewName}! 😊 We're thrilled you're enjoying your Sainsbury's gift card. Our team works hard to make shipping as fast as possible!`,
-      `We really appreciate your feedback, ${reviewName}! The Sainsbury's gift card is a great way to save on your shopping, and we're delighted it arrived in perfect condition.`,
+      `Thanks for sharing your experience, ${reviewName}! 😊 We're thrilled you're enjoying your £750 Sainsbury's gift card. Our team works hard to make shipping as fast as possible!`,
+      `We really appreciate your feedback, ${reviewName}! The £750 Sainsbury's gift card is a great way to save on your shopping, and we're delighted it arrived in perfect condition.`,
       `Thank you so much for your kind words, ${reviewName}! We're committed to making this program accessible to everyone who qualifies. Enjoy your shopping at Sainsbury's!`,
       `We're so glad to hear about your positive experience, ${reviewName}! Our goal is to make the survey process as simple as possible. Thank you for being part of our program!`,
-      `Your satisfaction means everything to us, ${reviewName}! We're happy that the Sainsbury's gift card meets your expectations. Don't hesitate to reach out if you have any questions!`,
+      `Your satisfaction means everything to us, ${reviewName}! We're happy that the £750 Sainsbury's gift card meets your expectations. Don't hesitate to reach out if you have any questions!`,
       `Thanks for trusting our program, ${reviewName}! Many people are skeptical at first, but we're dedicated to delivering gift cards to all our qualified participants.`,
-      `We love hearing success stories like yours, ${reviewName}! The Sainsbury's gift card can really help with household shopping expenses. Thanks for sharing your experience with our community!`,
+      `We love hearing success stories like yours, ${reviewName}! The £750 Sainsbury's gift card can really help with household shopping expenses. Thanks for sharing your experience with our community!`,
       `Thank you for your wonderful feedback, ${reviewName}! We're glad the process was smooth and you're enjoying your gift card. That's exactly what we aim for!`
     ];
 
