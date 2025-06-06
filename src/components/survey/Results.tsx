@@ -89,7 +89,7 @@ const Results = () => {
           {/* Fixed CTA button for mobile */}
           <div>
             <a 
-              href="https://unlockrwrd.com/LwA1CaVCV" 
+              href="https://glitchy.go2cloud.org/aff_c?offer_id=1942&aff_id=25969&source=ads" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="block w-full"
