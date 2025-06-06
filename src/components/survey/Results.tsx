@@ -11,8 +11,8 @@ import { Skeleton } from "@/components/ui/skeleton";
 import Timer from "@/components/Timer";
 import { ArrowRight } from "lucide-react";
 
-// Define gift card image path
-const GIFT_CARD_IMAGE = "/lovable-uploads/839b2b6b-4f09-4750-89f8-350ec4750a50.png";
+// Define gift card image path - updated to new £750 image
+const GIFT_CARD_IMAGE = "/lovable-uploads/49687b3e-ce7f-45e5-af61-a42b098e3d24.png";
 
 const Results = () => {
   const { answers } = useSurvey();

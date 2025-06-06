@@ -10,8 +10,8 @@ interface ProductOfferProps {
   onClaim: () => void;
 }
 
-// Define new gift card image
-const GIFT_CARD_IMAGE = "/lovable-uploads/839b2b6b-4f09-4750-89f8-350ec4750a50.png";
+// Define new gift card image - updated to new £750 image
+const GIFT_CARD_IMAGE = "/lovable-uploads/49687b3e-ce7f-45e5-af61-a42b098e3d24.png";
 
 const ProductOffer = ({ onClaim }: ProductOfferProps) => {
   const [imageLoaded, setImageLoaded] = useState(false);
