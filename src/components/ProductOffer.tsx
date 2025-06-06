@@ -61,7 +61,7 @@ const ProductOffer = ({ onClaim }: ProductOfferProps) => {
       </div>
 
       <div className="mb-6">
-        <h4 className="font-bold text-lg mb-2">£100 Sainsbury's Gift Card</h4>
+        <h4 className="font-bold text-lg mb-2">£750 Sainsbury's Gift Card</h4>
         <div className="flex items-center mb-1">
           <Check className="h-4 w-4 text-green-500 mr-2" />
           <span className="text-gray-700">Valid in all Sainsbury's stores</span>

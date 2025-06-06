@@ -81,7 +81,7 @@ const Results = () => {
             {/* Orange promotional text */}
             <div className="text-center px-3 py-2 bg-orange-50 rounded-lg border border-orange-100">
               <p className="text-orange-600 font-medium text-sm">
-                Share your thoughts and get rewarded! Claim your £100 Sainsbury's gift card today!
+                Share your thoughts and get rewarded! Claim your £750 Sainsbury's gift card today!
               </p>
             </div>
           </div>

@@ -22,7 +22,7 @@ const StartScreen = () => {
       
       <div className="bg-white p-6 rounded-lg shadow-md mb-6">
         <p className="text-center text-lg mb-4">
-          Get a <span className="text-orange-600 font-semibold">£100 Sainsbury's gift card</span> with the Sainsbury's Review Program. Simply answer 3 short questions about your shopping habits and this fantastic chance is yours!
+          Get a <span className="text-orange-600 font-semibold">£750 Sainsbury's gift card</span> with the Sainsbury's Review Program. Simply answer 3 short questions about your shopping habits and this fantastic chance is yours!
         </p>
         
         <p className="text-center mb-6">
